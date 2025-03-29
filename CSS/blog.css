@@ -1,0 +1,11 @@
+/* ======================Starts: blog page================= */
+
+.blog{
+    margin-top: 5rem;
+    --grid-gap:2rem;
+}
+
+.news img:hover{
+    transform: scale(1.01) skew(1deg);
+}
+/* _______________________End: blog page________________ */

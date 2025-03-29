@@ -1,0 +1,230 @@
+/* Utiliti classes */
+
+.margin{padding-inline: 0.5rem;}
+button{cursor: pointer;}
+.fa-solid{cursor: pointer;}
+
+/* ======================Starts: SHOP feature sectoin ================= */
+
+/* section 1 */
+.shop-feature{
+    width: 100vw;
+    place-items: center;
+    padding: 3rem 0;
+}
+
+/* section 2 */
+.shop-main-container{
+    width: 90vw;
+    margin-inline: auto;
+    margin-block: 2rem;
+}
+
+.shop-title{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-title select{
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+/* ======================Starts: List of product================= */
+.shop-product{
+    margin-block: 2rem;
+}
+
+.product-list{
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.product-list:hover,
+.product-list:focus{
+    color: hsl(var(--clr-red));
+}
+.product-list img{
+    border-radius: 1rem;
+}
+.shop-btn{
+    align-items: center;
+    --flex-gap:3rem;
+    transform: translateX(-30%);
+    transition: transform 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.product-list:hover .shop-btn{
+    transform: translateX(0%);
+}
+
+.shop-btn > button{
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+
+.pop-up{
+    position: absolute;
+    background-color: hsl(var(--clr-red));
+    top: 1rem;
+    left: 1rem;
+    border-radius:50%;
+    padding:.5rem  1rem;
+    color: hsl(var(--clr-white));
+}
+.shop-product:nth-child(1){grid-area: one;}
+.shop-product:nth-child(2){grid-area:two ;}
+.shop-product:nth-child(3){grid-area:three ;}
+.shop-product:nth-child(4){grid-area: four;}
+.shop-product:nth-child(5){grid-area:five ;}
+.shop-product:nth-child(6){grid-area: six;}
+.shop-product:nth-child(7){grid-area:seven ;}
+.shop-product:nth-child(8){grid-area:eight ;}
+.shop-product:nth-child(9){grid-area:nine ;}
+/* desktop view */
+
+@media (min-width:59em) {
+    .shop-main-container{
+        --grid-gap:2rem;
+        grid-auto-columns: 1fr;
+        grid-template-columns: auto 20vw;
+    }
+    .shop-main-container >*:first-child{
+        grid-column: 1;
+    }
+    .shop-main-container >*:last-child{
+        grid-column: 2;
+    }
+    .shop-product{
+        grid-template-areas: 
+        'one two three'
+        'four five six'
+        'seven eight nine'
+        ;
+    }
+
+    .shop-product > h3{
+        font-size: 1rem;
+    }
+    .sidebar-search{
+        padding-inline: 1rem;
+    }
+    .category-list >h3{
+        font-size: 1rem;
+    }
+    .product-list .shop-btn{
+        transform: translateX(-40%);
+    }
+}
+
+/* tablet view */
+@media (min-width:35em) and (max-width:59em) {
+    .shop-product{
+        grid-template-areas:
+        'one two'
+        'three four'
+        'five six'
+        'seven eight'
+        ;
+    }
+    .product-list .shop-btn{
+        transform: translateX(-40%);
+    }
+}
+/* _______________________End: List of product________________ */
+
+
+
+/* ======================Starts: Side bar================= */
+
+.sidebar-search{
+    border-radius: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.sidebar-search input{
+    padding: 1rem 0.5rem;
+    width: 80%;
+    border-radius: 2rem;
+    border: 0;
+}
+
+.sidebar-search input:focus{
+    outline: none;
+}
+
+.sidebar-search input[type="text"]{
+    padding-inline: 2rem;
+}
+
+.sidebar-search >* i{
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    box-shadow: -2px -0px 18px hsl(var(--clr-gray-light));
+}
+
+.category-list{
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+.category-list > i{
+    font-size: 2rem;
+    transform: rotate(0deg);
+    transition: transform 250ms ease-in-out;
+}
+
+.category-list > i[data-category="true"]{
+    transform: rotate(90deg);
+}
+
+.shop-category-list{
+    overflow-y: hidden;
+}
+
+.sidebar-nav{
+    margin: 1rem;
+    padding: 0;
+    list-style: none;
+    --grid-gap:0.8rem;
+    /* transform: translatex(-100%); */
+    /* transition: transform 250ms ease-in-out; */
+}
+
+.navItem{
+    position: relative;
+    transform: translatey(30rem);
+    transition: transform 3s ease-in-out;
+
+}
+
+.navItem[data-category="true"]{
+    transform: translatey(0%);
+}
+/* .sidebar-nav[data-category="true"]{
+    transform: translateY(0%);
+} */
+
+.sidebar-nav a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* _______________________End: Side bar________________ */
+
+
+
+
+
+/* _______________________End: SHOP feature sectoin ________________ */

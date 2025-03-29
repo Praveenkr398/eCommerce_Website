@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Shop page : Responsive Ecommerce Website</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/shop.css">
+    
+</head>
+
+<body class="home">
+
+    <!-- =================== Start: Header Section ================== -->
+
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <a href="index.html"><img src="../image/logo.png" alt="logo"></a>
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i
+                    class="fa-solid fa-xmark"></i></button>
+
+            <!-- navigation -->
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="fs-100  ff-montserrat bold-500" href="../index.html">Home</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="about.html">About</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 active ff-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 ff-montserrat bold-500">Login</p>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="AddCart.html"><i id="cart-box" aria-controls="cart-icon" class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </header>
+    <!-- _____________________End: Header Section_____________ -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =================== Start: SHOP PAGE  ================== -->
+
+<!-- =================== Start: shop feature section ================== -->
+
+<!-- section 1 -->
+<section class="shop-feature bg-gray grid">
+    <div>
+        <p class="ff-montserrat text-black">Home <span aria-hidden="true">></span>Product
+        </p>
+    </div>
+    <h2 class="ff-poppins fs-300 bold-700">Products</h2>
+</section>
+
+<!-- section 2 -->
+ <!-- filter option -->
+ <main class="shop-main-container grid">
+    <div>
+        <div class="shop-title flex">
+            <div>
+                <h2 class="ff-poppins fs-300">
+                    Shop
+                </h2>
+                <p>Showing 1-10 of 100 results</p>
+            </div>
+            <div>
+                <select name="list" id="list"  class="ff-poppins bg-black text-white">
+                    <option value="list">Default Sorting</option>
+                    <option value="list">Short by Popularity</option>
+                    <option value="list">Short by Rating</option>
+                    <option value="list">Short by Latest</option>
+                    <option value="list">Short by Price</option>
+                    <option value="list">Short by Low to High</option>
+                    <option value="list">Short by High to Low</option>
+                    
+                </select>
+            </div>
+        </div>
+        
+
+
+
+
+
+        <!-- =================== Start: List of Prodct ================== -->
+        <section class="shop-product grid">
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600 ptitle">The Best Headphone Ever</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white add-cart">Add to Cart</button>
+                    <p class="ff-montserrat bold-700 price">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Headphone You nave Miss</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Speakers  Let You deep dive</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Never try before sleep at day</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Light will never BOrn</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Let me know your needs</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+            <!-- Product 1 -->
+            <div class="product-list grid">
+                <img src="../image/p-3.jpg" alt="img1">
+                <p class="ff-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white">Add to Cart</button>
+                    <p class="ff-montserrat bold-700">$ 995.00</p>
+                </div>
+                <div class="pop-up">
+                    <p class="ff-poppins">Sell</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ________Side bar _____ -->
+     <section>
+        <div class="sidebar-search text-black bg-gray flex">
+            <input type="text" placeholder="Search Here" class="ff-montserrat bg-gray">
+            <div>
+                <i class="fa-solid bg-red text-white fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <aside class="sidebar-category">
+            <div class="category-list flex">
+                <h3 class="ff-poppins bold-700 fs-200">
+                    Product Category
+                </h3>
+                <i id="arrow"  data-category="false"
+                class="fa-solid fa-arrow-right"></i>
+               
+            </div>
+
+            <!-- ________Category List_________ -->
+             <div class="shop-category-list">
+                <ul id="side-nav" class="sidebar-nav grid"> 
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Earphones</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Speakers</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Mouse</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Computers</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Laptops</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Digi MIn</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Pamtop</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">uncategorized</a></li>
+                    <li class="navItem" data-category="false"> <a class="ff-montserrat  text-black bold-500" href="#">Headphone</a></li>
+                </ul>
+             </div>
+        </aside>
+     </section>
+ </main>
+
+ <!-- _____________________End: List of Prodct_____________ -->
+
+<!-- _____________________End: shop feature product_____________ -->
+
+    <!-- _____________________End: SHOP PAGE __________________ -->
+
+
+
+
+
+
+
+
+
+    <!-- =================== Start: Brand Section ================== -->
+
+    <section class="brands grid">
+        <div>
+            <img src="../image/br-1.png" alt="img1">
+        </div>
+        <div>
+            <img src="../image/br-2.png" alt="img2">
+        </div>
+        <div>
+            <img src="../image/br-3.png" alt="img3">
+        </div>
+        <div>
+            <img src="../image/br-4.png" alt="img4">
+        </div>
+        <div>
+            <img src="../image/br-5.png" alt="img5">
+        </div>
+    </section>
+
+    <!-- _____________________End: Brand Section_____________ -->
+
+
+
+
+
+
+    
+
+    <!-- =================== Start: Footer Sectoin  ================== -->
+
+    <section class="footer grid">
+        <div class="footer-logo grid">
+            <img src="../image/logo.png" alt="logo">
+            <p class="ff-montserrat fs-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                suscipit quae inventore commodi odit
+                ipsa fuga dolorem eaque placeat unde.</p>
+            <div class="social-media flex">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+
+        <div class="footer-menu grid">
+            <h3 class="ff-poppins fs-200 bold-800">Quick Links</h3>
+            <ul>
+                    <li><a class="fs-100 active ff-montserrat bold-500" href="index.html">Home</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="about.html">About</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="fs-100 ff-montserrat bold-500" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="contact grid">
+            <h3 class="ff-poppins fs-200 bold-400">Contact</h3>
+            <p>+01 482 4820 4923 PencileVenia pakistana, Raja Ram Jaaka, Tx 820423</p>
+        </div>
+
+        <div class="emails grid">
+            <h3 class="ff-poppins fs-200 bold-500">Subscribe to Our Email</h3>
+            <p class="ff-poppins updates fs-300 bold-800">for latest News & Updates</p>
+            <div class="inputfield flex bg-gray">
+                <input type="email" placeholder="Enter Your Email" class="ff-montserrat bg-gray">
+                <button class="ff-poppins bg-red text-white fs-50">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- copyright -->
+    <sectoin class="copyright">
+        <p class="c-font fs-100 ff-montserrat">&copy; web2code : All Right Reversed
+        </p>
+        <p class="p-top ff-montserrat fs-100">Privacy Policy . Term & Condition</p>
+    </sectoin>
+
+    <!-- _____________________End: Footer Sectoin _____________ -->
+
+    <script src="../javascript/index.js"></script>
+    <script src="../javascript/shop.js"></script>
+    <script src="../javascript/AddCart.js"></script>
+</body>
+
+</html>
