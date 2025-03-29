@@ -1,15 +1,13 @@
 # 🛒 Full E-Commerce Website (HTML & CSS Only)  
 
-![Live Preview]()
-
-## 🌐 Live Demo  
-🔗 **Explore the Website:** [Live Website](https://praveenkr398.github.io/eCommerce_Website/)  
-🔗 **View the Code:** [GitHub Repository](https://github.com/Praveenkr398/eCommerce_Website)  
-
 ---
 
 ## 📌 About This Project  
 This project is a fully functional **E-Commerce Website** built **entirely using HTML and CSS**, without any JavaScript or backend functionality. The goal of this project is to create a clean, professional, and responsive **online store** interface that can be further expanded with JavaScript and backend technologies in the future.  
+
+## 🌐 Live Demo  
+🔗 **Explore the Website:** [Live Website](https://praveenkr398.github.io/eCommerce_Website/)  
+🔗 **View the Code:** [GitHub Repository](https://github.com/Praveenkr398/eCommerce_Website)  
 
 ### 🎯 Why This Project?  
 E-commerce is a booming industry, and having a well-structured, responsive front-end is crucial for delivering a great user experience. This project demonstrates how an elegant **multi-page online store** can be designed using only HTML and CSS, focusing on:  
@@ -57,10 +55,9 @@ E-commerce is a booming industry, and having a well-structured, responsive front
 ## 🚀 How to Run Locally  
 Follow these simple steps to set up the project on your local machine:  
 
-1️⃣ Clone the repository:  
-   ```sh
-   git clone https://github.com/Praveenkr398/eCommerce_Website.git
 
+
+![Live Preview](https://github.com/user-attachments/assets/4135ed0a-8d18-4a01-9ef0-0b984a7dc623)
 
 🤝 Connect with Me
 📧 Email: prajatech355@gmail.com
