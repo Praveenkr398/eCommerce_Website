@@ -9,6 +9,9 @@ This project is a fully functional **E-Commerce Website** built **entirely using
 🔗 **Explore the Website:** [Live Website](https://praveenkr398.github.io/eCommerce_Website/)  
 🔗 **View the Code:** [GitHub Repository](https://github.com/Praveenkr398/eCommerce_Website)  
 
+
+Category:- "Website, HTML, CSS"
+
 ### 🎯 Why This Project?  
 E-commerce is a booming industry, and having a well-structured, responsive front-end is crucial for delivering a great user experience. This project demonstrates how an elegant **multi-page online store** can be designed using only HTML and CSS, focusing on:  
 ✔️ **User-Friendly Design** – Simple navigation and well-organized layout  
